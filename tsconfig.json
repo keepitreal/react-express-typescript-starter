@@ -18,6 +18,8 @@
         "typings/tsd.d.ts",
         "app/src/components/home/main.tsx",
         "app/src/main.tsx",
+        "server/config/config.ts",
+        "server/config/utils.ts",
         "server/server.ts"
     ]
 }
