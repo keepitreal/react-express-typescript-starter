@@ -16,7 +16,8 @@
     ],
     "files": [
         "typings/tsd.d.ts",
-        "app/src/components/home/main.tsx",
+        "app/src/components/home/child.tsx",
+        "app/src/components/home/parent.tsx",
         "app/src/main.tsx",
         "server/config/config.ts",
         "server/config/utils.ts",

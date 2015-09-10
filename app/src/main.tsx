@@ -1,10 +1,10 @@
 import * as React from 'react';
-import Home from './components/home/main';
+import Parent from './components/home/parent';
 
 class Main extends React.Component<any, any> {
 	render() {
 		return (
-			<Home />
+			<Parent />
 		);
 	}
 }
