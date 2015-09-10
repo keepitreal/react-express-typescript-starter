@@ -12,7 +12,9 @@ export default class Parent extends React.Component<any, any> {
 
 	render() {
 		return (
-			<Child logFoo={this.logFoo} />
+			<Child
+				logFoo={this.logFoo}
+				logFooAnon={() => this.logFoo()} />
 		);
 	}
 }

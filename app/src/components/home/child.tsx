@@ -6,6 +6,7 @@ export default class Child extends React.Component<any, any> {
 	}
 
 	render() {
+		this.props.logFooAnon();
 		this.props.logFoo();
 
 		return (
@@ -13,4 +14,3 @@ export default class Child extends React.Component<any, any> {
 		);
 	}
 }
-
